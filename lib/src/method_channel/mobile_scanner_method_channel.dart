@@ -3,20 +3,20 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:mobile_scanner/src/enums/barcode_format.dart';
-import 'package:mobile_scanner/src/enums/camera_facing.dart';
-import 'package:mobile_scanner/src/enums/mobile_scanner_authorization_state.dart';
-import 'package:mobile_scanner/src/enums/mobile_scanner_error_code.dart';
-import 'package:mobile_scanner/src/enums/torch_state.dart';
-import 'package:mobile_scanner/src/method_channel/android_surface_producer_delegate.dart';
-import 'package:mobile_scanner/src/method_channel/rotated_preview.dart';
-import 'package:mobile_scanner/src/mobile_scanner_exception.dart';
-import 'package:mobile_scanner/src/mobile_scanner_platform_interface.dart';
-import 'package:mobile_scanner/src/mobile_scanner_view_attributes.dart';
-import 'package:mobile_scanner/src/objects/barcode.dart';
-import 'package:mobile_scanner/src/objects/barcode_capture.dart';
-import 'package:mobile_scanner/src/objects/start_options.dart';
-import 'package:mobile_scanner/src/utils/parse_device_orientation_extension.dart';
+import 'package:mobile_scanner_beta/src/enums/barcode_format.dart';
+import 'package:mobile_scanner_beta/src/enums/camera_facing.dart';
+import 'package:mobile_scanner_beta/src/enums/mobile_scanner_authorization_state.dart';
+import 'package:mobile_scanner_beta/src/enums/mobile_scanner_error_code.dart';
+import 'package:mobile_scanner_beta/src/enums/torch_state.dart';
+import 'package:mobile_scanner_beta/src/method_channel/android_surface_producer_delegate.dart';
+import 'package:mobile_scanner_beta/src/method_channel/rotated_preview.dart';
+import 'package:mobile_scanner_beta/src/mobile_scanner_exception.dart';
+import 'package:mobile_scanner_beta/src/mobile_scanner_platform_interface.dart';
+import 'package:mobile_scanner_beta/src/mobile_scanner_view_attributes.dart';
+import 'package:mobile_scanner_beta/src/objects/barcode.dart';
+import 'package:mobile_scanner_beta/src/objects/barcode_capture.dart';
+import 'package:mobile_scanner_beta/src/objects/start_options.dart';
+import 'package:mobile_scanner_beta/src/utils/parse_device_orientation_extension.dart';
 
 /// An implementation of [MobileScannerPlatform] that uses method channels.
 class MethodChannelMobileScanner extends MobileScannerPlatform {

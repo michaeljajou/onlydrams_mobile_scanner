@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:mobile_scanner_beta/mobile_scanner.dart';
 import 'package:mocktail/mocktail.dart';
 
 /// Mocks

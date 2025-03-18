@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:mobile_scanner_beta/mobile_scanner.dart';
 
 /// Button widget for analyze image function
 class AnalyzeImageButton extends StatelessWidget {

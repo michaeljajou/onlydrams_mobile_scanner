@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:mobile_scanner_beta/mobile_scanner.dart';
 
 /// Widget to display scanned barcodes.
 class ScannedBarcodeLabel extends StatelessWidget {

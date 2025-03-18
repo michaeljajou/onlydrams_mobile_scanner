@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mobile_scanner/src/enums/barcode_format.dart';
+import 'package:mobile_scanner_beta/src/enums/barcode_format.dart';
 
 void main() {
   group('$BarcodeFormat tests', () {

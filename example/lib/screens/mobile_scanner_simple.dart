@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:mobile_scanner_beta/mobile_scanner.dart';
 
 /// Implementation of Mobile Scanner example with simple configuration
 class MobileScannerSimple extends StatefulWidget {

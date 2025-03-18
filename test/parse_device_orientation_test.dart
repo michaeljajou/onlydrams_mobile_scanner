@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mobile_scanner/src/utils/parse_device_orientation_extension.dart';
+import 'package:mobile_scanner_beta/src/utils/parse_device_orientation_extension.dart';
 
 void main() {
   group('parseDeviceOrientation', () {

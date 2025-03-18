@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:mobile_scanner/src/enums/camera_facing.dart';
+import 'package:mobile_scanner_beta/src/enums/camera_facing.dart';
 
 /// This widget represents a camera preview that rotates itself,
 /// based on changes in the device orientation.

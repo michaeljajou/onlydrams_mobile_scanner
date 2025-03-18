@@ -1,5 +1,5 @@
 import 'package:flutter/services.dart';
-import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:mobile_scanner_beta/mobile_scanner.dart';
 
 /// This function finds the barcode that touches the center of the
 /// image. If no barcode is found that touches the center, null is returned.

@@ -1,8 +1,8 @@
 import 'package:flutter/services.dart';
-import 'package:mobile_scanner/src/enums/camera_facing.dart';
-import 'package:mobile_scanner/src/enums/mobile_scanner_error_code.dart';
-import 'package:mobile_scanner/src/mobile_scanner_exception.dart';
-import 'package:mobile_scanner/src/utils/parse_device_orientation_extension.dart';
+import 'package:mobile_scanner_beta/src/enums/camera_facing.dart';
+import 'package:mobile_scanner_beta/src/enums/mobile_scanner_error_code.dart';
+import 'package:mobile_scanner_beta/src/mobile_scanner_exception.dart';
+import 'package:mobile_scanner_beta/src/utils/parse_device_orientation_extension.dart';
 
 /// This class will manage the orientation corrections for textures
 /// that are provided by the SurfaceProducer API on Android.

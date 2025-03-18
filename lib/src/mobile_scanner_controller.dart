@@ -1,20 +1,20 @@
-/// @docImport 'package:mobile_scanner/src/mobile_scanner.dart';
+/// @docImport 'package:mobile_scanner_beta/src/mobile_scanner.dart';
 library;
 
 import 'dart:async';
 
 import 'package:flutter/widgets.dart';
-import 'package:mobile_scanner/src/enums/barcode_format.dart';
-import 'package:mobile_scanner/src/enums/camera_facing.dart';
-import 'package:mobile_scanner/src/enums/detection_speed.dart';
-import 'package:mobile_scanner/src/enums/mobile_scanner_error_code.dart';
-import 'package:mobile_scanner/src/enums/torch_state.dart';
-import 'package:mobile_scanner/src/mobile_scanner_exception.dart';
-import 'package:mobile_scanner/src/mobile_scanner_platform_interface.dart';
-import 'package:mobile_scanner/src/mobile_scanner_view_attributes.dart';
-import 'package:mobile_scanner/src/objects/barcode_capture.dart';
-import 'package:mobile_scanner/src/objects/mobile_scanner_state.dart';
-import 'package:mobile_scanner/src/objects/start_options.dart';
+import 'package:mobile_scanner_beta/src/enums/barcode_format.dart';
+import 'package:mobile_scanner_beta/src/enums/camera_facing.dart';
+import 'package:mobile_scanner_beta/src/enums/detection_speed.dart';
+import 'package:mobile_scanner_beta/src/enums/mobile_scanner_error_code.dart';
+import 'package:mobile_scanner_beta/src/enums/torch_state.dart';
+import 'package:mobile_scanner_beta/src/mobile_scanner_exception.dart';
+import 'package:mobile_scanner_beta/src/mobile_scanner_platform_interface.dart';
+import 'package:mobile_scanner_beta/src/mobile_scanner_view_attributes.dart';
+import 'package:mobile_scanner_beta/src/objects/barcode_capture.dart';
+import 'package:mobile_scanner_beta/src/objects/mobile_scanner_state.dart';
+import 'package:mobile_scanner_beta/src/objects/start_options.dart';
 
 /// The controller for the [MobileScanner] widget.
 class MobileScannerController extends ValueNotifier<MobileScannerState> {

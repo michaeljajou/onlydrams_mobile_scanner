@@ -1,10 +1,10 @@
 import 'package:flutter/widgets.dart';
-import 'package:mobile_scanner/src/enums/barcode_format.dart';
-import 'package:mobile_scanner/src/enums/torch_state.dart';
-import 'package:mobile_scanner/src/method_channel/mobile_scanner_method_channel.dart';
-import 'package:mobile_scanner/src/mobile_scanner_view_attributes.dart';
-import 'package:mobile_scanner/src/objects/barcode_capture.dart';
-import 'package:mobile_scanner/src/objects/start_options.dart';
+import 'package:mobile_scanner_beta/src/enums/barcode_format.dart';
+import 'package:mobile_scanner_beta/src/enums/torch_state.dart';
+import 'package:mobile_scanner_beta/src/method_channel/mobile_scanner_method_channel.dart';
+import 'package:mobile_scanner_beta/src/mobile_scanner_view_attributes.dart';
+import 'package:mobile_scanner_beta/src/objects/barcode_capture.dart';
+import 'package:mobile_scanner_beta/src/objects/start_options.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 /// The platform interface for the `mobile_scanner` plugin.

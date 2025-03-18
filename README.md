@@ -21,7 +21,7 @@ See the [examples](example/README.md) for runnable examples of various usages, s
 ## Platform Support
 
 | Android | iOS | macOS | Web | Linux | Windows |
-|---------|-----|-------|-----|-------|---------|
+| ------- | --- | ----- | --- | ----- | ------- |
 | ✔       | ✔   | ✔     | ✔   | :x:   | :x:     |
 
 ### Features Supported
@@ -29,7 +29,7 @@ See the [examples](example/README.md) for runnable examples of various usages, s
 See the example app for detailed implementation information.
 
 | Features     | Android            | iOS                | macOS              | Web |
-|--------------|--------------------|--------------------|--------------------|-----|
+| ------------ | ------------------ | ------------------ | ------------------ | --- |
 | analyzeImage | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | returnImage  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
 | scanWindow   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
@@ -51,6 +51,7 @@ Then run:
 ## Configuration
 
 ### Android
+
 This package uses by default the **bundled version** of MLKit Barcode-scanning for Android. This version is immediately available to the device. But it will increase the size of the app by approximately 3 to 10 MB.
 
 The alternative is to use the **unbundled version** of MLKit Barcode-scanning for Android. This version is downloaded on first use via Google Play Services. It increases the app size by around 600KB.
@@ -58,12 +59,12 @@ The alternative is to use the **unbundled version** of MLKit Barcode-scanning fo
 [You can read more about the difference between the two versions here.](https://developers.google.com/ml-kit/vision/barcode-scanning/android)
 
 To use the **unbundled version** of the MLKit Barcode-scanning, add the following line to your `/android/gradle.properties` file:
+
 ```
 dev.steenbakker.mobile_scanner.useUnbundled=true
 ```
 
 ### iOS
-
 
 Since the scanner needs to use the camera, add the following keys to your Info.plist file. (located in <project root>/ios/Runner/Info.plist)
 
@@ -74,6 +75,7 @@ If you want to use the local gallery feature from [image_picker](https://pub.dev
 NSPhotoLibraryUsageDescription - describe why your app needs permission for the photo library. This is called Privacy - Photo Library Usage Description in the visual editor.
 
 Example,
+
 ```
 <key>NSCameraUsageDescription</key>
 <string>This app needs camera access to scan QR codes</string>
@@ -82,8 +84,8 @@ Example,
 <string>This app needs photos access to get QR code from photo library</string>
 ```
 
-
 ### macOS
+
 Ensure that you granted camera permission in XCode -> Signing & Capabilities:
 
 <img width="696" alt="Screenshot of XCode where Camera is checked" src="https://user-images.githubusercontent.com/24459435/193464115-d76f81d0-6355-4cb2-8bee-538e413a3ad0.png">
@@ -100,7 +102,7 @@ the source URL can be set beforehand.
 
 ```dart
 import 'package:flutter/foundation.dart';
-import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:mobile_scanner_beta/mobile_scanner.dart';
 
 final String scriptUrl = // ...
 
@@ -113,7 +115,7 @@ if (kIsWeb) {
 
 ### Simple
 
-Import the package with `package:mobile_scanner/mobile_scanner.dart`. The only required parameter is `onDetect`, which returns the scanned barcode or qr code.
+Import the package with `package:mobile_scanner_beta/mobile_scanner.dart`. The only required parameter is `onDetect`, which returns the scanned barcode or qr code.
 
 ```dart
 MobileScanner(
@@ -126,6 +128,7 @@ MobileScanner(
 ### Advanced
 
 If you want more control over the scanner, you need to create a new `MobileScannerController` controller. The controller contains multiple parameters to adjust the scanner.
+
 ```dart
 final MobileScannerController controller = MobileScannerController(
   cameraResolution: size,

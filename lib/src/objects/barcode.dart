@@ -1,17 +1,17 @@
 import 'dart:typed_data';
 import 'dart:ui';
 
-import 'package:mobile_scanner/src/enums/barcode_format.dart';
-import 'package:mobile_scanner/src/enums/barcode_type.dart';
-import 'package:mobile_scanner/src/objects/calendar_event.dart';
-import 'package:mobile_scanner/src/objects/contact_info.dart';
-import 'package:mobile_scanner/src/objects/driver_license.dart';
-import 'package:mobile_scanner/src/objects/email.dart';
-import 'package:mobile_scanner/src/objects/geo_point.dart';
-import 'package:mobile_scanner/src/objects/phone.dart';
-import 'package:mobile_scanner/src/objects/sms.dart';
-import 'package:mobile_scanner/src/objects/url_bookmark.dart';
-import 'package:mobile_scanner/src/objects/wifi.dart';
+import 'package:mobile_scanner_beta/src/enums/barcode_format.dart';
+import 'package:mobile_scanner_beta/src/enums/barcode_type.dart';
+import 'package:mobile_scanner_beta/src/objects/calendar_event.dart';
+import 'package:mobile_scanner_beta/src/objects/contact_info.dart';
+import 'package:mobile_scanner_beta/src/objects/driver_license.dart';
+import 'package:mobile_scanner_beta/src/objects/email.dart';
+import 'package:mobile_scanner_beta/src/objects/geo_point.dart';
+import 'package:mobile_scanner_beta/src/objects/phone.dart';
+import 'package:mobile_scanner_beta/src/objects/sms.dart';
+import 'package:mobile_scanner_beta/src/objects/url_bookmark.dart';
+import 'package:mobile_scanner_beta/src/objects/wifi.dart';
 
 /// Represents a single recognized barcode and its value.
 class Barcode {

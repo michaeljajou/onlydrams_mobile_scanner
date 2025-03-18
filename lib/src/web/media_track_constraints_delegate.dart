@@ -1,7 +1,7 @@
 import 'dart:js_interop';
 
-import 'package:mobile_scanner/src/enums/camera_facing.dart';
-import 'package:mobile_scanner/src/web/media_track_extension.dart';
+import 'package:mobile_scanner_beta/src/enums/camera_facing.dart';
+import 'package:mobile_scanner_beta/src/web/media_track_extension.dart';
 import 'package:web/web.dart';
 
 /// This class represents a delegate that manages the constraints for a [MediaStreamTrack].
