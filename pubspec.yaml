@@ -42,9 +42,11 @@ flutter:
         pluginClass: MobileScannerPlugin
       ios:
         pluginClass: MobileScannerPlugin
+        podspecFile: darwin/mobile_scanner_beta.podspec
         sharedDarwinSource: true
       macos:
         pluginClass: MobileScannerPlugin
+        podspecFile: darwin/mobile_scanner_beta.podspec
         sharedDarwinSource: true
       web:
         pluginClass: MobileScannerWeb

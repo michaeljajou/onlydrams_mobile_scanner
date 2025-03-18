@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_scanner_example/screens/mobile_scanner_advanced.dart';
-import 'package:mobile_scanner_example/screens/mobile_scanner_simple.dart';
+import 'package:mobile_scanner_beta_example/screens/mobile_scanner_advanced.dart';
+import 'package:mobile_scanner_beta_example/screens/mobile_scanner_simple.dart';
 
 void main() {
   runApp(

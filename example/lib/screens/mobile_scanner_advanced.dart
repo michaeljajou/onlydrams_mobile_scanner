@@ -4,19 +4,19 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:mobile_scanner_beta/mobile_scanner.dart';
-import 'package:mobile_scanner_example/widgets/buttons/analyze_image_button.dart';
-import 'package:mobile_scanner_example/widgets/buttons/pause_button.dart';
-import 'package:mobile_scanner_example/widgets/buttons/start_stop_button.dart';
-import 'package:mobile_scanner_example/widgets/buttons/switch_camera_button.dart';
-import 'package:mobile_scanner_example/widgets/buttons/toggle_flashlight_button.dart';
-import 'package:mobile_scanner_example/widgets/dialogs/barcode_format_dialog.dart';
-import 'package:mobile_scanner_example/widgets/dialogs/box_fit_dialog.dart';
-import 'package:mobile_scanner_example/widgets/dialogs/detection_speed_dialog.dart';
-import 'package:mobile_scanner_example/widgets/dialogs/detection_timeout_dialog.dart';
-import 'package:mobile_scanner_example/widgets/dialogs/resolution_dialog.dart';
-import 'package:mobile_scanner_example/widgets/scanned_barcode_label.dart';
-import 'package:mobile_scanner_example/widgets/scanner_error_widget.dart';
-import 'package:mobile_scanner_example/widgets/zoom_scale_slider_widget.dart';
+import 'package:mobile_scanner_beta_example/widgets/buttons/analyze_image_button.dart';
+import 'package:mobile_scanner_beta_example/widgets/buttons/pause_button.dart';
+import 'package:mobile_scanner_beta_example/widgets/buttons/start_stop_button.dart';
+import 'package:mobile_scanner_beta_example/widgets/buttons/switch_camera_button.dart';
+import 'package:mobile_scanner_beta_example/widgets/buttons/toggle_flashlight_button.dart';
+import 'package:mobile_scanner_beta_example/widgets/dialogs/barcode_format_dialog.dart';
+import 'package:mobile_scanner_beta_example/widgets/dialogs/box_fit_dialog.dart';
+import 'package:mobile_scanner_beta_example/widgets/dialogs/detection_speed_dialog.dart';
+import 'package:mobile_scanner_beta_example/widgets/dialogs/detection_timeout_dialog.dart';
+import 'package:mobile_scanner_beta_example/widgets/dialogs/resolution_dialog.dart';
+import 'package:mobile_scanner_beta_example/widgets/scanned_barcode_label.dart';
+import 'package:mobile_scanner_beta_example/widgets/scanner_error_widget.dart';
+import 'package:mobile_scanner_beta_example/widgets/zoom_scale_slider_widget.dart';
 
 enum _PopupMenuItems {
   cameraResolution,
